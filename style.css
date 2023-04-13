@@ -1,0 +1,39 @@
+/* Custom fonts */
+@font-face {
+    font-family: 'Engage';
+    src: url('./assets/fonts/EngageRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('./assets/fonts/BebasNeueRegular.ttf') format('truetype');
+}
+
+/* Selectors */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+        center / cover url("https://s32625.pcdn.co/wp-content/uploads/2017/05/what-is-abstract-art-kandinsky.jpg.optimal.jpg") no-repeat;
+}
+
+.hero-title {
+    font: bold 5vw 'Engage';
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+    font: normal 2vw 'BebasNeue';
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
